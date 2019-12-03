@@ -15,6 +15,7 @@ def self.create_table
     id INT PRIMARY KEY,
     name TEXT,
     grade INT);
+end
 
 
   # Remember, you can access your database connection anywhere in this class
