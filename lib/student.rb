@@ -10,7 +10,7 @@ class Student
   end
 
 def self.create_table
-  sql = <<-SQL
+  sql = <<-sqlite3
   CREATE TABLE students(
     @id INT PRIMARY KEY,
     @name TEXT,
