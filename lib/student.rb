@@ -4,6 +4,7 @@ class Student
   attr_reader :id
 
   def intiialize
+    @id = id 
     id = nil
 
   end
