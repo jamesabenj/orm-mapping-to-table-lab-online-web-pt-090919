@@ -9,6 +9,13 @@ class Student
     @grade = grade
   end
 
+def self.create_table
+  sql = <<-SQL
+  CREATE TABLE students(
+    id PRIMARY KEY,
+    name TEXT,
+    grade INTEGER);
+
 
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]
