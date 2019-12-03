@@ -13,7 +13,7 @@ def self.create_table
   CREATE TABLE students(
     @id INT PRIMARY KEY,
     @name TEXT,
-    @grade INT)
+    @grade INT);
 end
 
 
