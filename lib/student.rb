@@ -14,7 +14,7 @@ def self.create_table
   CREATE TABLE students(
     id INT PRIMARY KEY,
     name TEXT,
-    grade INTEGER);
+    grade INT);
 
 
   # Remember, you can access your database connection anywhere in this class
